@@ -1,0 +1,108 @@
+:root{
+    --white-color: #FFF;
+    --back-color: #000;
+    --text-color:#333;
+    --primary-color:#ff6433;
+    --border-color: #dbdbdb;
+    --height-header__navbar:34px;
+    --height-header:120px;
+    --height-header-witdh-search:calc(var(--height-header) - var(--height-header__navbar));
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size:62.5%;
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.grid {
+    width:1200px;
+    max-width:100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width:100%
+}
+.grid__row{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:-12px;
+    margin-right:-12px;
+}
+/* text */
+.grid__colum-2{
+    padding-left:12px;
+    padding-right:12px;
+    width:16.6667%;
+}
+.grid__colum-2-4{
+    padding-left:12px;
+    padding-right:12px;
+    width:20%;
+}
+.gird__colum-10{
+    padding-left:12px;
+    padding-right:12px;
+    width:83.33334%;
+}
+.btn{
+    min-width: 120px;
+    height:30px;
+    font-weight:500;
+    font-size: 1.6rem;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    border:1px solid var(--border-color);
+    text-decoration: none;
+    padding:0 12px;
+    line-height: 1.6rem;
+
+
+} 
+.btn.btn--primary{
+    color:var(--white-color);
+    background-color: var(--primary-color);
+
+}
+/* seclection */
+.select-input{
+    background-color: var(--white-color);
+    min-width:200px;
+    height:30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:12px;
+}
+.select-input-label{
+    font-size:1.6rem;
+    color:var(--text-color);
+}
+.select-input-btn{
+    font-size: 1.4rem;
+}
+.home__pagination{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.home__pagination-item{
+
+}
+.home__pagination-link{
+    display:block;
+    height:30px;
+    min-width: 40px;
+    text-decoration: none;
+    font-size:1.6rem;
+    color:var(--white-color);
+    text-align: center;
+}
+.home__pagination-icon{
+
+}
+
+
